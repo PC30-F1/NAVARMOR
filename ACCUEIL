@@ -1,0 +1,79 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bateaux de Luxe</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Bateaux de Luxe</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#models">Modèles</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Bienvenue chez NAVARMOR</h2>
+            <p>Découvrez nos modèles exclusifs de bateaux de haute qualité.</p>
+        </div>
+    </section>
+
+    <section id="models">
+        <div class="container">
+            <h2>Nos Modèles</h2>
+            <div class="model">
+                <img src="images/pech4.jpg" alt="Barque PECH4">
+                <h3> PECH4</h3>
+                <p>Le PECH4 est idéale pour vos sorties de pêche et balades tranquilles.</p>
+            </div>
+            <div class="model">
+                <img src="images/prom55.jpg" alt="Bateau PROM5.5">
+                <h3> PROM5.5</h3>
+                <p>Le bateau PROM5.5 est parfait pour vos aventures en mer avec confort et sécurité.</p>
+            </div>
+            <div class="model">
+                <img src="images/stan8.jpg" alt="Yacht STAN8">
+                <h3> STAN8</h3>
+                <p>Le STAN8 offre luxe et performance pour des croisières inoubliables.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>À propos de nous</h2>
+            <p>Nous sommes une entreprise dédiée à la fabrication de bateaux de haute qualité...</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <form>
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Bateaux de Luxe. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
